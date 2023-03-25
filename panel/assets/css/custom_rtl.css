@@ -1,0 +1,85 @@
+html {
+    direction: rtl !important
+}
+
+.sidebar-wrapper:after,
+.header_area {
+    right: 0px !important;
+}
+
+.sidebar-wrapper,
+.logo {
+    float: right !important;
+}
+
+
+.content_wrapper {
+    padding-right: 230px !important;
+    padding-left: 0 !important;
+}
+
+.metismenu .has-arrow:after{
+    display: none;
+}
+
+.header_area .header_menu, 
+.header_area .sidebar_btn {
+    float: left !important;
+}
+
+
+.header_area .sidebar_logo {
+    width: 182px !important;
+    line-height: 48px !important;
+    font-size: 1.7em !important;
+}
+
+/* befor click  */
+
+@media only screen and (max-width: 768px) {
+    .sidebar-wrapper, .sidebar-wrapper:after {
+        right: -230px !important;
+    }
+
+    .de {
+        display: none
+    }
+
+    .content_wrapper {
+        padding-right : 0 !important
+    }
+}
+
+/* after click */
+@media only screen and (max-width: 768px) {
+    .wrapper_responsive_active .sidebar-wrapper:after,
+    .wrapper_responsive_active .sidebar-wrapper {
+        right: 0px !important;
+    }
+}
+
+
+/* bar */
+@media only screen and (max-width: 768px){
+    .header_area .sidebar_btn button{
+      display: inline-block!important;
+    }
+  }
+
+
+  .sidebar-wrapper ul li .menu-item {
+      text-align: center;
+  }
+
+  .sidebar-wrapper ul .dashboard-menu a {
+      text-align: center;
+      text-indent: 50px;
+  }
+
+  .modal {
+      z-index: 9999999999
+  }
+
+  .header_area .header_menu li .user_item {
+      text-align: center !important;
+  }
